@@ -1,2 +1,1 @@
 # Plant-Disease-Detection
-ghg
