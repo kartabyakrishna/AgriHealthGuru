@@ -20,7 +20,7 @@ This process for building a model which can detect the disease assocaited with t
 
 1. Data gathering
 
-   The dataset taken was **"New Plant Diseases Dataset"**. It can be downloaded through the link "https://www.kaggle.com/vipoooool/new-plant-diseases-dataset". It is an Image dataset containing images of different healthy and unhealthy crop leaves.
+   The dataset used was the **"New Plant Diseases Dataset"**, available for download [here](https://www.kaggle.com/vipoooool/new-plant-diseases-dataset). It comprises images of various healthy and unhealthy crop leaves.
 
 2. Model building
 
