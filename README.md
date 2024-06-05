@@ -1,9 +1,10 @@
 <div align="center">
 
-## AgriHealthGuru [Recognition of Plant Diseases by Leaf Image Classification]
-
+## Leaf-AI [Recognition of Plant Diseases by Leaf Image Classification]
 
 ## <img src="./Assets/web.gif" alt="demo"/>
+
+ </div>
 
 ## Description
 
@@ -32,7 +33,10 @@ This process for building a model which can detect the disease assocaited with t
    - I used three models:-
      1. The CNN model architecture consists of CNN Layer, Max Pooling, Flatten a Linear Layers.
      2. Using Transfer learning VGG16 Architecture.
-     3. Using Transfer learning resnet34 Architecture.
+     3. Using Transfer learning resnet50 Architecture.
+     4. AlexNet
+     5. One Vs All Techniques
+     6. InceptionV3 with TFRecords.
 
 3. Training
 
@@ -52,8 +56,7 @@ This process for building a model which can detect the disease assocaited with t
 
   <img src="./Assets/models.png" alt="models" />
 
-All the version with code can be seen in `jovian.ml` (https://jovian.ml/soumyajit4419/course-project-plant-disease-classification)
-<br/>
+#### All the version with code can be seen in `Python-Notebook-Folder` 
 
 ## Details about the model
 
@@ -79,13 +82,6 @@ All the version with code can be seen in `jovian.ml` (https://jovian.ml/soumyaji
 
 This project is Licensed under `MIT`
 
-## Explanation
-
-`To understand the code :` You can find the complete explanation to the code in [Article](https://medium.com/@soumyajit4419/plant-ai-c8fc95ed90e6?source=friends_link&sk=4707825cbaefa2dcaaa92d0e3ed5de01)
-
-
-### Show your support
+## Show your support
 
 Give a ⭐ if you like this website!
-
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
