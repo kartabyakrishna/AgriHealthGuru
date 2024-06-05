@@ -93,7 +93,7 @@ ul li {
 
 .title {
   font-size: 30px;
-  color: #703fa3;
+  color: #1146cc;
   letter-spacing: 2px;
   font-weight: 700;
   text-transform: uppercase;
@@ -121,7 +121,7 @@ h5.card-title {
 .comments-grid-right h4,
 .single-title h4 {
   font-size: 25px;
-  color: #6e419d;
+  color: #1146cc;
   font-weight: bold;
 }
 
@@ -139,7 +139,7 @@ h5.card-title {
 .single-title ul li,
 .single-title ul li a {
   font-size: 14px;
-  color: #4c4c4c;
+  color: #363131;
   line-height: 25px;
 }
 

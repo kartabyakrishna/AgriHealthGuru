@@ -1,14 +1,13 @@
-from flask import Flask, render_template, jsonify, request, Markup
+from flask import Flask, render_template, jsonify, request
+from markupsafe import Markup
 from model import predict_image
 import utils
 
 app = Flask(__name__)
 
-
 @app.route('/', methods=['GET'])
 def home():
     return render_template('index.html')
-
 
 @app.route('/predict', methods=['GET', 'POST'])
 def predict():
@@ -20,10 +19,10 @@ def predict():
             print(prediction)
             res = Markup(utils.disease_dic[prediction])
             return render_template('display.html', status=200, result=res)
-        except:
-            pass
+        except Exception as e:
+            print(e)  # Print the error for debugging purposes
+            return render_template('index.html', status=500, res="Internal Server Error")
     return render_template('index.html', status=500, res="Internal Server Error")
-
 
 if __name__ == "__main__":
     app.run(debug=True)
