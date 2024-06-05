@@ -1,6 +1,6 @@
 <div align="center">
 
-## Leaf-AI [Recognition of Plant Diseases by Leaf Image Classification]
+## AgriHealthGuru [Recognition of Plant Diseases by Leaf Image Classification]
 
 ## <img src="./Assets/web.gif" alt="demo"/>
 
