@@ -3,7 +3,6 @@ import torch.nn as nn
 import torchvision.models as models
 import torchvision.transforms as transforms
 from PIL import Image
-import io
 
 
 class Plant_Disease_Model(nn.Module):
